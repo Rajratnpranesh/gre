@@ -45,7 +45,7 @@ class GREQuiz:
                 print(ran_q,'\n')
                 return 1
             else:
-                print(f'Wrong, the correct choise is: \n{correct}\n')
+                print(f'Wrong, the correct choice is: \n{correct}\n')
                 ran_qq = random.choice(qll)
                 print(ran_qq,'\n')
         except:
