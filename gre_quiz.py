@@ -9,7 +9,7 @@ class GREQuiz:
         self.incorrect = []
 
     def load_game(self, accepted_words):
-        file_name = '/content/gre_quiz/words.csv'
+        file_name = '/content/gre/words.csv'
         words = {}
         with open(file_name, 'r', encoding='utf-8-sig') as csvfile:
             reader = csv.reader(csvfile)
